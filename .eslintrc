@@ -1,0 +1,17 @@
+{
+  "extends": ["standard"],
+  "env": {
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "jquery": true
+  },
+  "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+  },
+  "rules": {
+      "strict": "off",
+      "no-multiple-empty-lines": "off"
+  }
+}
