@@ -89,7 +89,7 @@ gulp.task('js', function () {
             loadMaps: true
           })
         )
-        // .pipe(uglify())
+        .pipe(uglify())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(jsDist))
         .on('end', function () {
